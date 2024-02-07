@@ -1,0 +1,70 @@
+.logbody {
+   /* background: linear-gradient(135deg, #add8e6, #ffb6c1);*/ /* Gradient background with pale blue and baby pink */
+   background-image: url(./Assets/expense.jpeg);
+    font-family: 'Arial', sans-serif; /* Change font family */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    max-width: 400px; /* Bigger form width */
+    padding: 40px; /* Bigger form height */
+    border: 1px solid #bfb0b0; /* Lighter border color */
+    border-radius: 15px; /* Larger border radius */
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Slightly larger box shadow */
+    /*background-color: #e5dee1; /* White background color */
+    backdrop-filter: blur(30px);
+  }
+  
+  h2 {
+    color: #333; /* Dark text color */
+    font-size: 28px; /* Larger font size */
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .user {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .user:focus {
+    outline: none;
+    border-color: #007bff; 
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .log, .sign {
+    width: 48%;
+    height: 45px;
+    background-color: #007bff; /* Blue button color */
+    color: #ded5d9fb;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .log:hover, .sign:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
